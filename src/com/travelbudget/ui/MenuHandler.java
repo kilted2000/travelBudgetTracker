@@ -4,7 +4,6 @@ import com.travelbudget.model.Category;
 import com.travelbudget.model.Expense;
 import com.travelbudget.model.Trip;
 import com.travelbudget.service.BudgetService;
-
 import java.util.Scanner;
 
 /**
@@ -42,7 +41,7 @@ public class MenuHandler {
         printWelcome();
         Trip trip = createTrip();
         runMainMenu(trip);
-        System.out.println("\nSafe travels! Goodbye. ✈");
+        System.out.println("\nSafe travels! Have a great time! ✈");
         scanner.close();
     }
 
